@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = \/usr\/bin\/g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS = $/;"	m
+EN	qsystem.h	/^    double EN;$/;"	m	class:QSystem
+EN_theo	qsystem.cpp	/^double QSystem::EN_theo()$/;"	f	class:QSystem
+ES	qsystem.h	/^   	double ES;$/;"	m	class:QSystem
+ES_theo	qsystem.cpp	/^double QSystem::ES_theo()$/;"	f	class:QSystem
+EV_H	event.h	/^#define EV_H$/;"	d
+Event	event.h	/^  Event(double t, int i) {$/;"	f	struct:Event
+Event	event.h	/^struct Event {$/;"	s
+EventList	event.h	/^  EventList() { event_count = 0; head = 0;}$/;"	f	class:EventList
+EventList	event.h	/^class EventList {$/;"	c
+K	qsystem.h	/^   	int    K;$/;"	m	class:QSystem
+L	qsystem.h	/^  	double L;$/;"	m	class:QSystem
+LIBS	Makefile	/^LIBS = -lm$/;"	m
+PB	qsystem.h	/^   	double PB;$/;"	m	class:QSystem
+PB_theo	qsystem.cpp	/^double QSystem::PB_theo()$/;"	f	class:QSystem
+QSYSTEM_H	qsystem.h	/^#define QSYSTEM_H$/;"	d
+QSystem	qsystem.cpp	/^QSystem::QSystem(double LL, double mm, int KK, double mmu, double rrho){$/;"	f	class:QSystem
+QSystem	qsystem.h	/^class QSystem {$/;"	c
+RV_H	rv.h	/^#define RV_H$/;"	d
+Seed	rv.cpp	/^double Seed = 1111.0;$/;"	v
+U	qsystem.h	/^    double U;$/;"	m	class:QSystem
+U_theo	qsystem.cpp	/^double QSystem::U_theo()$/;"	f	class:QSystem
+clear	event.cpp	/^void EventList::clear()$/;"	f	class:EventList
+event_count	event.h	/^  int event_count;       \/\/ Total number of Events in EventList$/;"	m	class:EventList
+exp_rv	rv.cpp	/^double exp_rv(double lambda)$/;"	f
+frac	qsystem.h	/^   	double frac;$/;"	m	class:QSystem
+fracSum	qsystem.h	/^    double fracSum; $/;"	m	class:QSystem
+get	event.cpp	/^Event* EventList::get()$/;"	f	class:EventList
+head	event.h	/^  Event* head;           \/\/ Points to first Event in EventList$/;"	m	class:EventList
+insert	event.cpp	/^void EventList::insert(double time, int type)$/;"	f	class:EventList
+lambda	qsystem.h	/^   	double lambda;$/;"	m	class:QSystem
+lambdaEff	qsystem.h	/^    double lambdaEff;$/;"	m	class:QSystem
+lambdaN	qsystem.h	/^   	double* lambdaN;$/;"	m	class:QSystem
+lambdaNP	qsystem.h	/^    double lambdaNP;$/;"	m	class:QSystem
+m	qsystem.h	/^   	double m;$/;"	m	class:QSystem
+main	main.cpp	/^int main()$/;"	f
+mu	qsystem.h	/^   	double mu;$/;"	m	class:QSystem
+muN	qsystem.h	/^   	double* muN;$/;"	m	class:QSystem
+next	event.h	/^  Event* next;            \/\/ Points to next event in list$/;"	m	struct:Event
+p	qsystem.h	/^   	double* p;$/;"	m	class:QSystem
+remove	event.cpp	/^Event* EventList::remove(int type)$/;"	f	class:EventList
+rho	qsystem.h	/^   	double rho;$/;"	m	class:QSystem
+time	event.h	/^  double time;            \/\/ Time at which Event takes place$/;"	m	struct:Event
+type	event.h	/^  int type;               \/\/ Type of Event$/;"	m	struct:Event
+uni_rv	rv.cpp	/^double uni_rv()           $/;"	f
+~EventList	event.h	/^  ~EventList() { clear();}$/;"	f	class:EventList

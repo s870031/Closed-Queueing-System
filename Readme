@@ -1,0 +1,27 @@
+Simulation of closed queueing system
+-----------------------------------
+
+Author: Hsin-Hua Chen
+
+Description:  This program simulates an closed queueing system.  
+The simulation outputs the number of customers in the queue after 
+500000 departures from the system, the average number of 
+customers, avg. service time, blocking probability and utilization
+ in the system over the entire simulation.
+
+Platform/compiler: MacOS, g++
+
+Files:
+
+event.cpp - Functions for inserting and removing Events from EventLists 
+event.h - Data structures for Events and EventLists
+main.cpp - Main program for simulation
+Makefile - Makefile for simulation
+rv.cpp - Functions which return uniform and exponential random variables
+rv.h - Header file for rv.cpp
+
+Compiling instructions:
+Edit Makefile to point to the c++ compiler on the local machine.
+To compile, place all files within a single directory and type "make".
+To run, type "sim".
+
